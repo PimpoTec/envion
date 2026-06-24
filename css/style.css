@@ -135,13 +135,10 @@ body {
 }
 
 .choice-card:hover {
-  border-color: #185FA5;
-  box-shadow: 0 4px 16px rgba(24, 95, 165, 0.08);
+  border-color: #0a3661;
+  box-shadow: 0 4px 16px rgba(151, 61, 26, 0.08);
 }
 
-.choice-card.featured {
-  border: 2px solid #185FA5;
-}
 
 .choice-icon {
   font-size: 28px;
@@ -172,6 +169,7 @@ body {
 .choice-card a:hover {
   text-decoration: underline;
 }
+
 
 /* STATS */
 .stats-bar {
