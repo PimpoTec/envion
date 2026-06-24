@@ -1,0 +1,226 @@
+/* HERO */
+.pil-hero {
+  text-align: center;
+  padding: 72px 40px 48px;
+  background: #ffffff;
+}
+
+.pil-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.pil-hero h1 span {
+  color: #185FA5;
+}
+
+.pil-hero p {
+  font-size: 17px;
+  color: #555;
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ACCESO RÁPIDO */
+.pil-acceso {
+  padding: 56px 40px;
+  background: #f7f9fc;
+}
+
+.pil-acceso h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.acceso-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.acceso-card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.acceso-card:hover {
+  border-color: #185FA5;
+  box-shadow: 0 4px 16px rgba(24, 95, 165, 0.08);
+}
+
+.acceso-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.acceso-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.acceso-card p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.acceso-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: #185FA5;
+}
+
+/* TELÉFONOS */
+.pil-telefonos {
+  padding: 56px 40px;
+  background: #ffffff;
+}
+
+.pil-telefonos h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.tel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tel-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: box-shadow 0.2s;
+}
+
+.tel-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.tel-header {
+  background: #185FA5;
+  padding: 14px 18px;
+}
+
+.tel-icao {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.tel-nombre {
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  margin-top: 2px;
+}
+
+.tel-datos {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tel-dato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tel-label {
+  font-size: 12px;
+  color: #999;
+}
+
+.tel-val {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* REQUISITOS */
+.pil-requisitos {
+  padding: 56px 40px;
+  background: #f7f9fc;
+}
+
+.pil-requisitos h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.req-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.req-card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px 20px;
+}
+
+.req-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.req-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.req-card ul li {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  padding-left: 18px;
+  position: relative;
+}
+
+.req-card ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #185FA5;
+  font-weight: 600;
+}
