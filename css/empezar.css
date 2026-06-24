@@ -1,0 +1,264 @@
+/* HERO */
+.emp-hero {
+  text-align: center;
+  padding: 72px 40px 48px;
+  background: #ffffff;
+}
+
+.emp-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.emp-hero h1 span {
+  color: #185FA5;
+}
+
+.emp-hero p {
+  font-size: 17px;
+  color: #555;
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* FAQ */
+.emp-faq {
+  padding: 56px 40px;
+  background: #f7f9fc;
+}
+
+.emp-faq h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 32px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px 20px;
+}
+
+.faq-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.faq-item h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* LICENCIAS */
+.emp-licencias {
+  padding: 56px 40px;
+  background: #ffffff;
+}
+
+.emp-licencias h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.section-sub {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 32px;
+}
+
+.lic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.lic-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+  padding: 28px 22px;
+  background: #ffffff;
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+
+.lic-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+}
+
+.lic-card.featured {
+  border: 2px solid #185FA5;
+}
+
+.lic-badge {
+  display: inline-block;
+  background: #f0f0f0;
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lic-badge.popular {
+  background: #E6F1FB;
+  color: #185FA5;
+}
+
+.lic-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.lic-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.lic-card p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.lic-datos {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lic-dato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dato-label {
+  font-size: 12px;
+  color: #999;
+}
+
+.dato-val {
+  font-size: 13px;
+  font-weight: 600;
+  color: #185FA5;
+}
+
+/* PASOS */
+.emp-pasos {
+  padding: 56px 40px;
+  background: #f7f9fc;
+}
+
+.emp-pasos h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+.pasos-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.paso {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px 18px;
+  text-align: center;
+  width: 160px;
+}
+
+.paso-num {
+  width: 36px;
+  height: 36px;
+  background: #185FA5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto 12px;
+}
+
+.paso h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.paso p {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.paso-arrow {
+  font-size: 22px;
+  color: #185FA5;
+  font-weight: 300;
+}
+
+/* BTN */
+.btn-primary {
+  display: inline-block;
+  background: #185FA5;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #0c447c;
+}
